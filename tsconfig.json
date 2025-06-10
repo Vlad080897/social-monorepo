@@ -5,6 +5,12 @@
   "references": [
     {
       "path": "./apps/social-monorepo"
+    },
+    {
+      "path": "./packages/header"
+    },
+    {
+      "path": "./apps/routing"
     }
   ]
 }
