@@ -3,6 +3,9 @@
   "include": [],
   "references": [
     {
+      "path": "../routing"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

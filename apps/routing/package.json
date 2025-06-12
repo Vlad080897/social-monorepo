@@ -1,5 +1,17 @@
 {
-  "name": "@react-monorepo/routing",
+  "name": "@social/routing",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@tanstack/react-router": "^1.121.0",
+    "@tanstack/react-router-devtools": "^1.121.0"
+  },
+  "devDependencies": {
+    "@tanstack/router-plugin": "^1.121.0"
+  },
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    }
+  }
 }
